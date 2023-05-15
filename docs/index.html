@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salute_Artificial_Intelligence</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="https://raw.githubusercontent.com/sanmaomashi/Salute_Artificial_Intelligence/main/img/0.jpg" sizes="16x16">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.13.0/lib/themes/vue.css">
+  <!--  导航栏css  -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  <!--  侧边栏折叠 css -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'Salute_Artificial_Intelligence',
+      repo: 'https://github.com/sanmaomashi/Salute_Artificial_Intelligence',
+      // 自定义侧边栏
+      loadSidebar: true,
+      subMaxLevel: 3,
+      // 开启封面渲染
+      coverpage: true,
+       // 切换页面自动跳到页面顶部
+      auto2top: true,
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 点击搜索',
+        noData: '找不到结果',
+        depth: 3
+      },
+      // 字数插件
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
+      // pagination: {
+      //   previousText: '上一章节',
+      //   nextText: '下一章节',
+      //   crossChapter: false,
+      //   crossChapterText: false,
+      // },
+      toc: { 
+        scope: '.markdown-section', 
+        headings: 'h1, h2, h3, h4, h5, h6', 
+        title: 'Table of Contents', 
+      },
+      // 侧边栏默认折叠层级
+      sidebarDisplayLevel: 0
+
+
+
+    }
+  </script>
+  <!-- 全局搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.0"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 复制到剪贴板 -->
+  <!--   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+  <!-- 字数插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  <!-- 翻页 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 使用 pangu.js 给网页上的中文和英文、数字、符号之间添加空格。 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  <!-- 侧边栏扩展与折叠 -->
+<!--   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+  <!-- 目录跳转 -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+
+
+</body>
+</html>
